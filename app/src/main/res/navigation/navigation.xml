@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/profileFragment">
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.doni.uas.ProfileFragment"
+        android:label="My Profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/TVShowFragment"
+        android:name="com.doni.uas.TVShowFragment"
+        android:label="TVShow"
+        tools:layout="@layout/fragment_t_v_show" />
+    <fragment
+        android:id="@+id/movieFragment"
+        android:name="com.doni.uas.MovieFragment"
+        android:label="Movie Popular"
+        tools:layout="@layout/fragment_movie" />
+</navigation>

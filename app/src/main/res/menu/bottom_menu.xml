@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/movieFragment"
+        android:icon="@drawable/ic_baseline_movie_24"
+        android:title="Movie" />
+    <item
+        android:id="@+id/TVShowFragment"
+        android:icon="@drawable/ic_baseline_live_tv_24"
+        android:title="Tv Show" />
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:title="Profile" />
+</menu>
